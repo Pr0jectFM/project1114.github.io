@@ -1,15 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title>ProjectFM</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<link rel="icon" href="common/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="main.css" media="all">
 
-</head>
-<body>
-
 <style>
 	body {
-		background-color:white;
+		background-color:black;
 	}
 	
 	a:link {
@@ -77,10 +76,23 @@
 	}
 	
 	body {
-		background-image: url("bg.png");
+  	/* The image used */
+  	background-image: url("bg.png");
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
 	}
 </style>
-	
+</head>
+
+<body>
+<img 
+	src="banner.png"
+	alt="Banner" 
+	style="margin:0;width:100%;"
+>
+
 <ul>
 	<li><a href="about.html">About</a></li>
 	<li class="dropdown">
@@ -136,3 +148,4 @@
 	</li>
 </ul>
 </body>
+</html>
