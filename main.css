@@ -67,3 +67,13 @@ img {
 	padding: 0.5em 0.5em;
 	background-color: black;
 }
+
+.audio-container {
+  display: flex;
+	position: fixed;
+	left: 1em;
+	right: 1em;
+	bottom: 1em;
+  justify-content: center;
+  align-items: center;
+}
