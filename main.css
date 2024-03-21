@@ -29,9 +29,7 @@ p {
   color: #ffffff;
   display: inline-block;
 	text-align: justify;
-	padding: 0.5em 0.5em;
-	margin: 0.5em 1em;
-	background-color: black;
+	margin: 0em 0.5em;
 }
 a:link {
 	color: #3333FF;
@@ -48,8 +46,6 @@ a:active {
 
 img {
 	width: "100%";
-	margin-top: 1em;
-	margin-bottom: 1em;
 }
 
 .center {
@@ -61,4 +57,13 @@ img {
 .centerbutton {
   text-align:center;
 
+}
+
+/* Container holding the image and the text */
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+	padding: 0.5em 0.5em;
+	background-color: black;
 }
