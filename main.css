@@ -85,3 +85,13 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+.audio-text {
+	position: fixed;
+	left: 1em;
+	bottom: 4em;
+	text-align: left;
+	padding: 0.5em 0.5em;
+	color:rgba(255,255,255,1);
+	background-color:rgba(0,0,0,0.7);
+}
