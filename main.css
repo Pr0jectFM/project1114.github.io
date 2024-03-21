@@ -21,6 +21,10 @@ h6 {
 }
 p {
   color: #ffffff;
+	text-align: justify;
+	padding: 1em 1em;
+	margin: 1em 1em;
+	background-color: black;
 }
 a:link {
 	color: #3333FF;
