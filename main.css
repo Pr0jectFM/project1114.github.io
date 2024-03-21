@@ -1,5 +1,11 @@
 body {
   background-color: #000000;
+  /* The image used */
+  background-image: url("BG.gif");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
 }
 h1 {
   color: #ffffff;
@@ -21,9 +27,10 @@ h6 {
 }
 p {
   color: #ffffff;
+  display: inline-block;
 	text-align: justify;
-	padding: 1em 1em;
-	margin: 1em 1em;
+	padding: 0.5em 0.5em;
+	margin: 0.5em 1em;
 	background-color: black;
 }
 a:link {

@@ -2,10 +2,6 @@
 <html lang="en">
 <head>
 <style>
-	body {
-		background-color:black;
-	}
-	
 	a:link {
 		color: white;
 	}
@@ -21,6 +17,7 @@
 	
 	ul {
 		list-style-type: none;
+  	display: inline-block;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
@@ -69,15 +66,11 @@
 	.dropdown:hover .dropdown-content {
 		display: block;
 	}
-	
-	body {
-  	/* The image used */
-  	background-image: url("BG.gif");
 
-  	/* Create the parallax scrolling effect */
-  	background-attachment: fixed;
-  	background-position: center;
+	div.container {
+  text-align: center;
 	}
+
 </style>
 </head>
 
@@ -89,59 +82,61 @@
 	class="center"
 >
 
-<ul>
-	<li><a href="about.html">About</a></li>
-	<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
-		<div class="dropdown-content">
-			<a href="1-romhacks/sid/1-sid-1.html">South Island Definitive</a>
-			<a href="#1-shima-1">SHIMA</a>
-			<a href="#1-sng-1">Sonic Next Genesis</a>
-			<a href="#1-vts1-1">VTuber in Sonic 1</a>
-			<a href="#1-others-1">Others</a>
-		</div>
-	</li>
-	<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Music</a>
-		<div class="dropdown-content">
-			<a href="#2-originals-1">Originals</a>
-			<a href="#2-soundtracks-1">Soundtracks</a>
-			<a href="#2-remixes-1">Remixes</a>
-		</div>
-	</li>
-	<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Art</a>
-		<div class="dropdown-content">
-			<a href="#3-static-1">Static</a>
-			<a href="#3-motion-1">Motion</a>
-		</div>
-	</li>
-	<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Engineering</a>
-		<div class="dropdown-content">
-			<a href="#4-synth-1">Analog Synthesizer</a>
-		</div>
-	</li>
-	<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Other</a>
-		<div class="dropdown-content">
-			<a href="#5-8bdmskin-1">Mega Man 8-Bit Deathmatch Skin</a>
-			<a href="#5-hackdatabase-1">Sonic Hack Database</a>
-			<a href="#5-samplesource-1">Sample Source Spreadsheet</a>
-		</div>
-	</li>
-	<li class="dropdown">
-		<a href="javascript:void(0)" class="dropbtn">Links</a>
-		<div class="dropdown-content">
-			<a href="https://bandcamp.com/project1114">Bandcamp</a>
-			<a href="https://bsky.app/profile/projectfm.bsky.social">BlueSky</a>
-			<!--<a href="https://www.patreon.com/projectfm">Patreon</a>-->
-			<a href="https://www.reddit.com/user/Project1114">Reddit</a>
-			<a href="https://soundcloud.com/felix-morrissey">Soundcloud</a>
-			<a href="https://twitter.com/Pr0jectFM">Twitter</a>
-			<a href="https://youtube.com/@Pr0jectFM?si=hetxh9MKy3JqHtcS">YouTube</a>
-		</div>
-	</li>
-</ul>
+<div class="container">
+	<ul>
+		<li><a href="about.html">About</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
+			<div class="dropdown-content">
+				<a href="1-romhacks/sid/1-sid-1.html">South Island Definitive</a>
+				<a href="#1-shima-1">SHIMA</a>
+				<a href="#1-sng-1">Sonic Next Genesis</a>
+				<a href="#1-vts1-1">VTuber in Sonic 1</a>
+				<a href="#1-others-1">Others</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Music</a>
+			<div class="dropdown-content">
+				<a href="#2-originals-1">Originals</a>
+				<a href="#2-soundtracks-1">Soundtracks</a>
+				<a href="#2-remixes-1">Remixes</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Art</a>
+			<div class="dropdown-content">
+				<a href="#3-static-1">Static</a>
+				<a href="#3-motion-1">Motion</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Engineering</a>
+			<div class="dropdown-content">
+				<a href="#4-synth-1">Analog Synthesizer</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Other</a>
+			<div class="dropdown-content">
+				<a href="#5-8bdmskin-1">Mega Man 8-Bit Deathmatch Skin</a>
+				<a href="#5-hackdatabase-1">Sonic Hack Database</a>
+				<a href="#5-samplesource-1">Sample Source Spreadsheet</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Links</a>
+			<div class="dropdown-content">
+				<a href="https://bandcamp.com/project1114">Bandcamp</a>
+				<a href="https://bsky.app/profile/projectfm.bsky.social">BlueSky</a>
+				<!--<a href="https://www.patreon.com/projectfm">Patreon</a>-->
+				<a href="https://www.reddit.com/user/Project1114">Reddit</a>
+				<a href="https://soundcloud.com/felix-morrissey">Soundcloud</a>
+				<a href="https://twitter.com/Pr0jectFM">Twitter</a>
+				<a href="https://youtube.com/@Pr0jectFM?si=hetxh9MKy3JqHtcS">YouTube</a>
+			</div>
+		</li>
+	</ul>
+</div>
 </body>
 </html>
