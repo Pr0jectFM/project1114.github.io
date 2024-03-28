@@ -76,7 +76,7 @@ class Header extends HTMLElement {
 			
 			<header>
 			<img 
-				src="banner.png"
+				src="/banner.png"
 				alt="Banner"
 				style="width:100%;max-width:1024px;border-radius: 25px;"
 				class="center"
@@ -88,11 +88,11 @@ class Header extends HTMLElement {
 					<li class="dropdown">
 						<a href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
 						<div class="dropdown-content">
-							<a href="/1-romhacks/1-sid-1">South Island Definitive</a>
-							<a href="/1-romhacks/1-sid-1">SHIMA</a>
-							<a href="/1-romhacks/1-sid-1">Sonic Next Genesis</a>
-							<a href="/1-romhacks/1-sid-1">VTuber in Sonic 1</a>
-							<a href="/1-romhacks/1-sid-1">Others</a>
+							<a href="/romhacks/sid-1">South Island Definitive</a>
+							<a href="/romhacks/shima-1">SHIMA</a>
+							<a href="/romhacks/sng-1">Sonic Next Genesis</a>
+							<a href="/romhacks/vts1-1">VTuber in Sonic 1</a>
+							<a href="/romhacks/other-1">Others</a>
 						</div>
 					</li>
 					<li class="dropdown">
@@ -119,7 +119,7 @@ class Header extends HTMLElement {
 					<li class="dropdown">
 						<a href="javascript:void(0)" class="dropbtn">Other</a>
 						<div class="dropdown-content">
-							<a href="/5-other/8bdmskin/8bdmskin">Mega Man 8-Bit Deathmatch Skin</a>
+							<a href="/other/8bdmskin">Mega Man 8-Bit Deathmatch Skin</a>
 							<a href="#5-hackdatabase-1">Sonic Hack Database</a>
 							<a href="#5-samplesource-1">Sample Source Spreadsheet</a>
 						</div>
