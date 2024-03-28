@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ProjectFM</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="icon" href="/common/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../../main.css" media="all">
+</head>
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain attribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+<body>
+
+<div w3-include-html="/menu.html"></div> 
+
+<script>
+includeHTML();
+</script>
+
+<div class="center">
+<img
+	src="stand.gif"
+	alt="360 degree view of standing sprite"
+	width="10%"
+	maxwidth="64px"
+>
+<img
+	src="run.gif"
+	alt="360 degree view of running animation"
+	width="10%"
+>
+<img
+	src="gun.gif"
+	alt="360 degree view of shooting animation"
+	width="10%"
+>
+</div>
+
+<div class="audio-text">
+	Title: Thunder Tornado
+	<br>
+	Composed by: Ippo Yamada, Ryo Kawakami, Yu Shimoda, Hiroki Isogai
+	<br>
+	Remix by: ProjectFM
+	<br>
+	Year: 2019
+	<br>
+	Chips: YM2612 + SN76489
+</div>
+
+<div class="audio-container">
+	<audio 
+		src="../../2-music/remixes/tornado.mp3" 
+		controls="controls" 
+		loop="loop"
+		style="width:100%;"
+	>
+	</audio>
+</div>
+
+</body>
+</html>
