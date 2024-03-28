@@ -1,7 +1,7 @@
 body {
   background-color: #000000;
   /* The image used */
-  background-image: url("BG.gif");
+  background-image: url("assets/BG.gif");
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
