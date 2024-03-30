@@ -6,16 +6,16 @@ class Header extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
 			<style>
-				a:link {
+				.head:link {
 					color: white;
 				}
-				a:visited {
+				.head:visited {
 					color: white;
 				}
-				a:hover {
+				.head:hover {
 					color: white;
 				}
-				a:active {
+				.head:active {
 					color: white;
 				}
 				
@@ -84,19 +84,19 @@ class Header extends HTMLElement {
 			
 			<div style="text-align: center; margin: 1em 1em">
 				<ul>
-					<li><a href="/about">About</a></li>
+					<li><a class="head" href="/about">About</a></li>
 					<li class="dropdown">
-						<a href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
+						<a class="head" href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
 						<div class="dropdown-content">
 							<a href="/romhacks/sid-1">South Island Definitive</a>
 							<a href="/romhacks/shima-1">SHIMA</a>
-							<a href="/romhacks/sng-1">Sonic Next Genesis</a>
+							<a href="/romhacks/sng-1">Next Genesis</a>
 							<a href="/romhacks/vts1-1">VTuber in Sonic 1</a>
 							<a href="/romhacks/other-1">Others</a>
 						</div>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:void(0)" class="dropbtn">Music</a>
+						<a class="head" href="javascript:void(0)" class="dropbtn">Music</a>
 						<div class="dropdown-content">
 							<a href="#2-originals-1">Originals</a>
 							<a href="#2-soundtracks-1">Soundtracks</a>
@@ -104,20 +104,20 @@ class Header extends HTMLElement {
 						</div>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:void(0)" class="dropbtn">Art</a>
+						<a class="head" href="javascript:void(0)" class="dropbtn">Art</a>
 						<div class="dropdown-content">
 							<a href="#3-static-1">Static</a>
 							<a href="#3-motion-1">Motion</a>
 						</div>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:void(0)" class="dropbtn">Engineering</a>
+						<a class="head" href="javascript:void(0)" class="dropbtn">Engineering</a>
 						<div class="dropdown-content">
 							<a href="#4-synth-1">Analog Synthesizer</a>
 						</div>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:void(0)" class="dropbtn">Other</a>
+						<a class="head" href="javascript:void(0)" class="dropbtn">Other</a>
 						<div class="dropdown-content">
 							<a href="/other/8bdmskin">Mega Man 8-Bit Deathmatch Skin</a>
 							<a href="#5-hackdatabase-1">Sonic Hack Database</a>
@@ -125,7 +125,7 @@ class Header extends HTMLElement {
 						</div>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:void(0)" class="dropbtn">Links</a>
+						<a class="head" href="javascript:void(0)" class="dropbtn">Links</a>
 						<div class="dropdown-content">
 							<a href="https://bandcamp.com/project1114">Bandcamp</a>
 							<a href="https://bsky.app/profile/projectfm.bsky.social">BlueSky</a>
