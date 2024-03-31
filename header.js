@@ -6,20 +6,20 @@ class Header extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
 			<style>
-				.head:link {
+				a.head:link {
 					color: white;
 				}
-				.head:visited {
+				a.head:visited {
 					color: white;
 				}
-				.head:hover {
+				a.head:hover {
 					color: white;
 				}
-				.head:active {
+				a.head:active {
 					color: white;
 				}
 				
-				ul {
+				ul.head {
 					list-style-type: none;
 					display: inline-block;
 					margin: 0;
@@ -29,11 +29,11 @@ class Header extends HTMLElement {
 					background-color: rgba(0,18,36,1);
 				}
 				
-				li {
+				li.head {
 					float: left;
 				}
 				
-				li a, .dropbtn {
+				li a.head, .dropbtn {
 					display: inline-block;
 					color: white;
 					text-align: center;
@@ -41,12 +41,13 @@ class Header extends HTMLElement {
 					text-decoration: none;
 				}
 				
-				li a:hover, .dropdown:hover .dropbtn {
+				li a.head:hover, .dropdown:hover .dropbtn {
 					background-color: rgba(0,54,108,1);
 				}
 				
 				li.dropdown {
 					display: inline-block;
+					float: left;
 				}
 				
 				.dropdown-content {
@@ -83,13 +84,13 @@ class Header extends HTMLElement {
 			>
 			
 			<div style="text-align: center; margin: 1em 1em">
-				<ul>
-					<li><a class="head" href="/about">About</a></li>
+				<ul class="head">
+					<li class="head"><a class="head" href="/about">About</a></li>
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
 						<div class="dropdown-content">
 							<a href="/romhacks/sid-1">South Island Definitive</a>
-							<a href="/romhacks/shima-1">SHIMA</a>
+							<a href="/romhacks/shima-1">Isle of Magnetic Artifacts</a>
 							<a href="/romhacks/sng-1">Next Genesis</a>
 							<a href="/romhacks/vts1-1">VTuber in Sonic 1</a>
 							<a href="/romhacks/other-1">Others</a>
@@ -98,9 +99,9 @@ class Header extends HTMLElement {
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Music</a>
 						<div class="dropdown-content">
-							<a href="#2-originals-1">Originals</a>
-							<a href="#2-soundtracks-1">Soundtracks</a>
-							<a href="#2-remixes-1">Remixes</a>
+							<a href="/music/originals-1">Originals</a>
+							<a href="/music/soundtracks-1">Soundtracks</a>
+							<a href="/music/remixes-1">Remixes</a>
 						</div>
 					</li>
 					<li class="dropdown">
