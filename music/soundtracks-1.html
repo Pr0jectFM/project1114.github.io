@@ -8,24 +8,24 @@
 	<script src="../header.js" type="text/javascript" defer></script>
 	<script src="music.js" type="text/javascript" defer></script>
 	<style>
-		#playlist{
+		.playlist{
 			list-style: none;
     	list-style-type: none;
     	padding-left: 0;
 		}
-		#playlist li{
+		.playlist li{
 			padding: 14px 16px;
     	list-style-type: none;
 		}
-		#playlist li a{
+		.playlist li a{
 			color:white;
 			text-decoration: none;
 			padding: 14px 16px;
 		}
-		#playlist li a:hover{
+		.playlist li a:hover{
 			background-color: rgba(0,54,108,1);
 		}
-		#playlist .current-song a{
+		.playlist .current-song a{
 			color:rgb(255, 255, 127);
 		}
 	</style>
@@ -35,10 +35,10 @@
 	<header-component></header-component>
 
 	<div class="containercontainer">
-		<div class="container">
+		<div class="container" id="container">
 			<h1>Soundtracks</h1>
 			<h2>Sonic 1: South Island Definitive</h2>
-			<ul id="playlist">
+			<ul id="playlist0" class="playlist">
 				<li class="current-song"><a href="soundtracks/sid/fromthetop.mp3">1. From the Top... ...for Title</a></li>
 				<li><a href="soundtracks/sid/onthegreenhill.mp3">2. On the Green Hill ...for Green Hill Zone Act 1</a></li>
 				<li><a href="soundtracks/sid/overthelostmountains.mp3">3. Over the Lost Mountains ...for Green Hill Zone Act 2</a></li>
@@ -50,7 +50,7 @@
 				<li><a href="soundtracks/sid/mechanicalsymphony.mp3">9. Mechanical Symphony ...for Boss</a></li>
 			</ul>
 			<h2>Sonic the Hedgehog: Isle of Magnetic Artifacts</h2>
-			<ul id="playlist">
+			<ul id="playlist1" class="playlist">
 				<li><a href="soundtracks/shima/bgz1.mp3">1. Blossom Gardens Zone Act 1</a></li>
 				<li><a href="soundtracks/shima/bgz2.mp3">2. Blossom Gardens Zone Act 2</a></li>
 				<li><a href="soundtracks/shima/mhz1.mp3">3. Melting Heights Zone Act 1</a></li>
@@ -60,7 +60,7 @@
 				<li><a href="soundtracks/shima/reachforthemoonimmortalsmoke.mp3">7. Reach for the Moon, Immortal Smoke</a></li>
 			</ul>
 			<h2>Sonic 1: The New Ranger</h2>
-			<ul id="playlist">
+			<ul id="playlist2" class="playlist">
 				<li><a href="soundtracks/newranger/shiarempire.mp3">1. Shi'ar Empire [X-Men (Genesis)]</a></li>
 				<li><a href="soundtracks/newranger/mcrock.mp3">2. McRock [Global Gladiators (Genesis)]</a></li>
 				<li><a href="soundtracks/newranger/06.mp3">3. 06 [Blades of Vengeance (Genesis)]</a></li>
@@ -68,7 +68,7 @@
 				<li><a href="soundtracks/newranger/supertheme.mp3">5. Super Theme [Sonic the Hedgehog 2 (Genesis)]</a></li>
 			</ul>
 			<h2>Miscellaneous</h2>
-			<ul id="playlist">
+			<ul id="playlist3" class="playlist">
 				<li><a href="soundtracks/misc/forthelandofthesky.mp3">1. For the Land of the Sky (Sonic Full Throttle)</a></li>
 				<li><a href="soundtracks/misc/maintheme.mp3">2. Main Theme (Sonic Next Genesis)</a></li>
 			</ul>

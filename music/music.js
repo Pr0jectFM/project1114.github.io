@@ -1,23 +1,28 @@
 audioPlayer();
 function audioPlayer(){
 	var currentSong = 0;
-	$("#audioPlayer")[0].src = $("#playlist li a") [0];
-	$("#playlist li a").click(function(e){
-		e.preventDefault();
-		$("#audioPlayer")[0].src = this;
-		$("#audioPlayer")[0].play();
-		$("#playlist li").removeClass("current-song");
-			currentSong = $(this).parent().index();
-			$(this).parent().addClass("current-song");
-	});
+	var nextSong = 0;
+	var previousSong = $("#playlist0 li a") [0];
+	$("#audioPlayer")[0].src = $("#playlist0 li a") [0];	// set audio player to first song
+	$(".playlist li a").click(function(e){			// when something on the list is clicked
+		e.preventDefault();				// don't leave page
+		$("#audioPlayer")[0].src = this;		// set the audio player to the song
+		$("#audioPlayer")[0].play();			// make the audio player start playing
+		$(previousSong).parent().removeClass("current-song");	// remove current-song from the entry on the list
+		currentSong = $(this).parent().index();		// set current song
+		previousSong = this;				// set current song
+		$(this).parent().addClass("current-song");	// give entry on list the current-song class
 
-	$("#audioPlayer")[0].addEventListener("ended", function(){
-		currentSong++;
-			if(currentSong == $("#playlist li a").length)
-				currentSong = 0;
-			$("#playlist li").removeClass("current-song");
-			$("#playlist li:eq("+currentSong+")").addClass("current-song");
-			$("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
-			$("#audioPlayer")[0].play();
+	});
+	$("#audioPlayer")[0].addEventListener("ended", function(){	// when audio player has finished playing
+		currentSong++;						// increment currentSong
+		nextSong = document.getElementById($(previousSong).parent().parent()[0].id).getElementsByTagName("li");
+		if(currentSong == nextSong.length)		// if currentSong exceeds end of list
+			currentSong = 0;				// then reset currentSong
+		$(previousSong).parent().removeClass("current-song");		// remove current-song from the entry on the list
+		$(nextSong[currentSong]).addClass("current-song");		// give entry on list the current-song class
+		$("#audioPlayer")[0].src = nextSong[currentSong].firstChild.href;	// set the audio player to the song corresponginf with the currentSong # entry on the list
+		$("#audioPlayer")[0].play();
+		previousSong = nextSong[currentSong].firstChild;				// set current song
 	})
 }

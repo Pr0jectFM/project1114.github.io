@@ -85,23 +85,23 @@ class Header extends HTMLElement {
 			
 			<div style="text-align: center; margin: 1em 1em">
 				<ul class="head">
-					<li class="head"><a class="head" href="/about">About</a></li>
+					<li class="head"><a class="head" href="/about.html">About</a></li>
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
 						<div class="dropdown-content">
-							<a href="/romhacks/sid-1">South Island Definitive</a>
-							<a href="/romhacks/shima-1">Isle of Magnetic Artifacts</a>
-							<a href="/romhacks/sng-1">Next Genesis</a>
-							<a href="/romhacks/vts1-1">VTuber in Sonic 1</a>
-							<a href="/romhacks/other-1">Others</a>
+							<a href="/romhacks/sid-1.html">South Island Definitive</a>
+							<a href="/romhacks/shima-1.html">Isle of Magnetic Artifacts</a>
+							<a href="/romhacks/sng-1.html">Next Genesis</a>
+							<a href="/romhacks/vts1-1.html">VTuber in Sonic 1</a>
+							<a href="/romhacks/other-1.html">Others</a>
 						</div>
 					</li>
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Music</a>
 						<div class="dropdown-content">
-							<a href="/music/originals-1">Originals</a>
-							<a href="/music/soundtracks-1">Soundtracks</a>
-							<a href="/music/remixes-1">Remixes</a>
+							<a href="/music/originals-1.html">Originals</a>
+							<a href="/music/soundtracks-1.html">Soundtracks</a>
+							<a href="/music/remixes-1.html">Remixes</a>
 						</div>
 					</li>
 					<li class="dropdown">
@@ -120,7 +120,7 @@ class Header extends HTMLElement {
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Other</a>
 						<div class="dropdown-content">
-							<a href="/other/8bdmskin">Mega Man 8-Bit Deathmatch Skin</a>
+							<a href="/other/8bdmskin.html">Mega Man 8-Bit Deathmatch Skin</a>
 							<a href="#5-hackdatabase-1">Sonic Hack Database</a>
 							<a href="#5-samplesource-1">Sample Source Spreadsheet</a>
 						</div>
