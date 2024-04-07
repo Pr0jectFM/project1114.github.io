@@ -87,11 +87,15 @@ function positionDropdown() {
 	var header;
 	$(".dropdown").hover(function(e){
 		header = $(this).parent().parent()[0];
-		if((this.offsetLeft + this.children[1].offsetWidth) < (header.offsetWidth + header.offsetLeft + header.scrollLeft)){
+		if((this.offsetLeft) < (header.offsetLeft + header.scrollLeft)){
+			this.children[1].style.right = "auto";
+			this.children[1].style.left = String(header.offsetLeft) + "px";
+		}
+		else if((this.offsetLeft + this.children[1].offsetWidth) < (header.offsetWidth + header.offsetLeft + header.scrollLeft)){
 			this.children[1].style.left = String(this.offsetLeft - header.scrollLeft) + "px";
 			this.children[1].style.right = "auto";
 		}
-		else{
+		else {
 			this.children[1].style.right = String(window.innerWidth-(header.offsetWidth+header.offsetLeft)) + "px";
 			this.children[1].style.left = "auto";
 		}
