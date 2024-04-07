@@ -48,6 +48,7 @@ ul {
   list-style-type: circle;
 	padding: 0em 0em 0em 1em;
   line-height: 150%;
+	text-align: left;
 }
 
 .center {
