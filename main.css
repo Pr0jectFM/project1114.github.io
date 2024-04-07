@@ -104,9 +104,10 @@ ul {
 	color:rgba(255,255,255,0.95);
 	background-color:rgba(0,18,36,0.8);
   backdrop-filter: blur(3px);
+  line-height: 130%;
+	font-size: 0.8em;
+	margin: 0em 0.5em;
 }
-
-
 
 /* The following is used for the header*/
 a.head:link {
