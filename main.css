@@ -65,12 +65,11 @@ ul {
 	padding: 1em;
 	border-radius: 40px;
 	color:rgba(255,255,255,0.98);
-	background-color:rgba(0,18,36,0.8);
+	background-color:rgba(0,18,36,0.9);
 	display: inline-block;
 	text-align: justify;
 	margin: 0em 0.5em;
 	max-width: 75em;
-  backdrop-filter: blur(5px);
 }
 
 .containercontainer {
@@ -208,9 +207,6 @@ li.dropdown {
 .playlist li{
 	padding: 0px 16px;
 	list-style-type: none;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
 }
 .playlist li a{
 	color:white;
@@ -220,7 +216,10 @@ li.dropdown {
 	display: block;
 	border-radius: 0.5em;
 	transition-duration: 0.2s;
-	transition-property: background-color, outline;
+	transition-property: background-color, border-color;
+	border-style: solid;
+	border-width: 0px 1px;
+	border-color: rgba(255, 255, 255, 0);
 }
 .playlist li a:hover{
 	background-color: rgba(2, 133, 255, 0.3);
@@ -229,10 +228,7 @@ li.dropdown {
 	display: none;
 }
 .playlist .current-song a{
-	outline-color: rgba(2, 133, 255, 1);
-	outline-style: solid;
-	outline-width: 1px;
-	border-radius: 0.5em;
+	border-color: rgba(2, 133, 255, 1);
 }
 .playlist .current-song div{
 	display: block;
