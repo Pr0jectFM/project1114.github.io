@@ -19,6 +19,7 @@ p {
   display: block;
 	text-align: justify;
   line-height: 150%;
+	font-size: medium;
 }
 a:link {
 	color: #88CCFF;
@@ -42,7 +43,7 @@ ul {
   list-style-type: circle;
 	padding: 0em 0em 0em 1em;
   line-height: 150%;
-	font-size: medium;
+	font-size: 0.875em;
 }
 
 .center {
