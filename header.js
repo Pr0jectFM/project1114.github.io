@@ -87,7 +87,7 @@ function positionDropdown() {
 	var header;
 	$(".dropdown").hover(function(e){
 		header = $(this).parent().parent()[0];
-		if((this.offsetLeft + this.children[1].offsetWidth) < (header.offsetWidth+header.offsetLeft)){
+		if((this.offsetLeft + this.children[1].offsetWidth) < (header.offsetWidth+header.offsetLeft+header.scrollLeft)){
 			this.children[1].style.left = String(this.offsetLeft - (header.scrollLeft)) + "px";
 			this.children[1].style.right = "auto";
 		}
