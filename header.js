@@ -18,7 +18,8 @@ class Header extends HTMLElement {
 				>
 			</a>
 			</div>
-			
+			<div class="shade">
+			</div>
 			<div class="head-scroll">
 				<ul class="head">
 					<li class="head"><a class="head" href="/about.html">About</a></li>

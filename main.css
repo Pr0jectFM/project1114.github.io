@@ -99,15 +99,39 @@ ul {
 	position: fixed;
   border-radius: 10px;
 	left: 1em;
-	bottom: 4.5em;
+	bottom: 6em;
 	text-align: left;
 	padding: 0.5em 0.5em;
 	color:rgba(255,255,255,0.95);
 	background-color:rgba(0,18,36,0.8);
   backdrop-filter: blur(3px);
   line-height: 130%;
-	font-size: 0.8em;
+	font-size: calc(0.7em + 0.25vw);
 	margin: 0em 0.5em;
+	cursor: pointer;
+	max-height: 17em;
+	transition-duration: 0.4s;
+	transition-property: max-height;
+	overflow: hidden;
+}
+
+input {
+	position: fixed;
+	opacity: 0;
+}
+
+input:checked + .audio-text {
+	max-height: 1em;
+}
+
+div.shade {
+	background: radial-gradient(rgba(0, 0, 0, 0) 50%,rgba(0, 0, 31, 0.8) 90%);
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+	top: 0;
+	left: 0;
 }
 
 /* The following is used for the header*/
@@ -142,6 +166,7 @@ ul.head {
 	background-color: rgba(0,18,36,1);
 	overflow: auto;
 	white-space: nowrap;
+	border-radius: 10px;
 }
 
 li.head {
@@ -210,7 +235,7 @@ li.dropdown {
 	padding: 0px 16px;
 	list-style-type: none;
 }
-.playlist li a{
+a.song-link{
 	color:white;
 	text-decoration: none;
 	padding: 14px 16px;
@@ -223,7 +248,7 @@ li.dropdown {
 	border-width: 0px 1px;
 	border-color: rgba(255, 255, 255, 0);
 }
-.playlist li a:hover{
+a.song-link:hover{
 	background-color: rgba(2, 133, 255, 0.3);
 }
 .playlist li div{

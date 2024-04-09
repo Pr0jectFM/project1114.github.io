@@ -1,58 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>ProjectFM</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="../common/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="../main.css" media="all">
-	<script src="../header.js" type="text/javascript" defer></script>
-	<script src="music.js" type="text/javascript" defer></script>
-	<style>
-		.playlist{
-			list-style: none;
-    	list-style-type: none;
-    	padding-left: 0;
-		}
-		.playlist li{
-			padding: 14px 16px;
-    	list-style-type: none;
-		}
-		.playlist li a{
-			color:white;
-			text-decoration: none;
-			padding: 14px 16px;
-			background-color: rgba(2, 133, 255, 0);
-		  transition-duration: 0.1s;
-		}
-		.playlist li a:hover{
-			background-color: rgba(2, 133, 255, 0.3);
-		  transition-duration: 0.1s;
-			border-radius: 0.5em
-		}
-		.playlist li div{
-			display: none;
-		}
-		.playlist .current-song a{
-			color:rgb(255, 255, 127);
-		}
-		.playlist .current-song div{
-			display: block;
-		}
-	</style>
+	<script src="../header.js" defer></script>
+	<script src="music.js" defer></script>
 </head>
 
 <body>
 	<header-component></header-component>
-
 	<div class="containercontainer">
 		<div class="container" id="container">
-			<h1>Originals</h1>
+			<h1 style="margin: 0em 0em 0.5em 0em">Originals</h1>
+			<h2>Chiptunes</h2>
 			<ul id="playlist0" class="playlist">
+				<li class="current-song">
+					<a class="song-link" href="originals/slimyparchment.mp3">1. Slimy Parchment (2022)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: Title Theme
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2022
+							<br>
+							Chips: YM2612 + SN76489
+						</div>
+					</label>
+				</li>
+				<li>
+					<a class="song-link" href="originals/geodelamp.mp3">2. Geode Lamp (2022)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: Geode Lamp
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2022
+							<br>
+							Chips: YM2612 + SN76489
+						</div>
+					</label>
+				</li>
+				<li>
+					<a class="song-link" href="originals/botchedcrossing.mp3">3. Botched Crossing (2021)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: Botched Crossing
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2021
+							<br>
+							Chips: YM2612 + SN76489
+						</div>
+					</label>
+				</li>
+			</ul>
+			<h2>Non-Chiptunes</h2>
+			<ul id="playlist1" class="playlist">
+				<li>
+					<a class="song-link" href="originals/centredistant.mp3">1. Centre Distant (2021)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: Centre Distant
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2021
+						</div>
+					</label>
+				</li>
+				<li>
+					<a class="song-link" href="originals/quixotication.mp3">2. Quixotication (2019)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: Quixotication
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2019
+						</div>
+					</label>
+				</li>
+				<li>
+					<a class="song-link" href="originals/firststage.mp3">3. First Stage (2019)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: First Stage
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2019
+						</div>
+					</label>
+				</li>
+				<li>
+					<a class="song-link" href="originals/constructivedecay.mp3">4. Constructive Decay (2019)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: Constructive Decay
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2019
+						</div>
+					</label>
+				</li>
+				<li>
+					<a class="song-link" href="originals/soulsbliss.mp3">5. "My Soul's Bliss Kills My Body" (2019)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: "My Soul's Bliss Kills My Body"
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2019
+						</div>
+					</label>
+				</li>
+				<li>
+					<a class="song-link" href="originals/classproject.mp3">6. Class Project (2019)</a>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="audio-text">
+							Title: Class Project
+							<br>
+							Creator: ProjectFM
+							<br>
+							Year: 2019
+						</div>
+					</label>
+				</li>
 			</ul>
 		</div>
 	</div>
-	<br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<div class="audio-container">
 		<audio src="" controls id="audioPlayer" style="width:100%">
 			Sorry, your browser doesn't support HTML5!

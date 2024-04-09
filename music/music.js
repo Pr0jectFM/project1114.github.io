@@ -4,7 +4,7 @@ function audioPlayer(){
 	var nextSong = 0;
 	var previousSong = $("#playlist0 li a") [0];
 	$("#audioPlayer")[0].src = $("#playlist0 li a") [0];	// set audio player to first song
-	$(".playlist li a").click(function(e){			// when something on the list is clicked
+	$(".song-link").click(function(e){			// when something on the list is clicked
 		e.preventDefault();				// don't leave page
 		$("#audioPlayer")[0].src = this;		// set the audio player to the song
 		$("#audioPlayer")[0].play();			// make the audio player start playing
