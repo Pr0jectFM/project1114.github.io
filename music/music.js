@@ -1,4 +1,33 @@
-audioPlayer();
+async function logMusic(id) {
+	const response = await fetch("/music/music.json");
+	text = await response.json();
+	var idnum = NaN;
+	for (i in text){
+		if(text[i].id === id)
+			idnum = i;
+	}
+	var string = "";
+	const template = {
+		title:"Title: ",
+		game:"Game: ",
+		creator:"Creator: ",
+		year:"Year: ",
+		chip:"Chips: "
+	};
+	for (i in template){
+		if (text[idnum][i + "1"])
+			string += template[i] + text[idnum][i + "1"] + "<br>";
+	}
+	if (text[idnum].remix === "1"){
+		string += "<br><u>Original</u><br>";
+		for (i in template){
+			if (text[idnum][i + "2"])
+				string += template[i] + text[idnum][i + "2"] + "<br>";
+		}
+	}
+	document.getElementById("text-audio").innerHTML = string;
+}
+
 function audioPlayer(){
 	var currentSong = 0;
 	var nextSong = 0;
@@ -11,8 +40,7 @@ function audioPlayer(){
 		$(previousSong).parent().removeClass("current-song");	// remove current-song from the entry on the list
 		currentSong = $(this).parent().index();		// set current song
 		$(this).parent().addClass("current-song");	// give entry on list the current-song class
-		previousSong.nextElementSibling.style.display = "none";
-		this.nextElementSibling.style.display = "block";
+		logMusic(this.id);
 		previousSong = this;				// set current song
 	});
 	$("#audioPlayer")[0].addEventListener("ended", function(){	// when audio player has finished playing
@@ -24,8 +52,9 @@ function audioPlayer(){
 		$(nextSong[currentSong]).addClass("current-song");		// give entry on list the current-song class
 		$("#audioPlayer")[0].src = nextSong[currentSong].children[0].href;	// set the audio player to the song corresponginf with the currentSong # entry on the list
 		$("#audioPlayer")[0].play();
-		previousSong.nextElementSibling.style.display = "none";
-		nextSong[currentSong].children[0].nextElementSibling.style.display = "block";
 		previousSong = nextSong[currentSong].children[0];				// set current song
+		logMusic(previousSong.id);
 	})
 }
+
+audioPlayer();

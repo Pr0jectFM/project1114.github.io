@@ -9,14 +9,14 @@ class Header extends HTMLElement {
 			<div
 				style="padding-bottom: min(256px,25%); height:0; margin:0em 0.85em;"
 			>
-			<a href="/index.html">
-				<img 
-					src="/banner.png"
-					alt="Banner"
-					style="width:100%; max-width:1024px; border-radius:25px; max-height:256px"
-					class="center"	
-				>
-			</a>
+				<a href="/index.html">
+					<img 
+						src="/banner.png"
+						alt="Banner"
+						style="width:100%; max-width:1024px; border-radius:25px; max-height:256px"
+						class="center block"
+					>
+				</a>
 			</div>
 			<div class="shade">
 			</div>
@@ -81,9 +81,6 @@ class Header extends HTMLElement {
 	}
 }
 
-customElements.define('header-component', Header);
-
-positionDropdown();
 function positionDropdown() {
 	var header;
 	$(".dropdown").hover(function(e){
@@ -102,3 +99,19 @@ function positionDropdown() {
 		}
 	})
 }
+
+function setBoxHeight(){
+	if (document.getElementsByTagName("input")[0].checked)
+		audiobox.setAttribute("style","max-height: 1em");
+	else
+		audiobox.setAttribute("style","max-height:" + audiobox.scrollHeight + "px");
+
+}
+
+customElements.define('header-component', Header);
+positionDropdown();
+var audiobox = document.getElementById("text-audio");
+setBoxHeight();
+$("input").click(function(e){
+	setBoxHeight();
+})
