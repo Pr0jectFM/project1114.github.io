@@ -44,22 +44,21 @@ class Header extends HTMLElement {
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Art</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="#3-static-1">Static</a>
-							<a href="#3-motion-1" class="dropbown-bottom">Motion</a>
+							<a href="/art/static-1.html">Static</a>
+							<a href="/art/motion-1.html" class="dropbown-bottom">Motion</a>
 						</div>
 					</li>
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Engineering</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="#4-synth-1" class="dropbown-bottom">Analog Synthesizer</a>
+							<a href="/engineering/synth-1.html" class="dropbown-bottom">Analog Synthesizer</a>
 						</div>
 					</li>
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Other</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/other/8bdmskin.html">Mega Man 8-Bit Deathmatch Skin</a>
-							<a href="#5-hackdatabase-1">Sonic Hack Database</a>
-							<a href="#5-samplesource-1" class="dropbown-bottom">Sample Source Spreadsheet</a>
+							<a href="/other/8bdmskin-1.html">Mega Man 8-Bit Deathmatch Skin</a>
+							<a href="/other/sheets-1.html" class="dropbown-bottom">Spreadsheets</a>
 						</div>
 					</li>
 					<li class="dropdown">
