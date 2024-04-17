@@ -36,9 +36,9 @@ class Header extends HTMLElement {
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Music</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/music/originals-1.html">Originals</a>
+							<a href="/music/standalone-1.html">Standalone</a>
 							<a href="/music/soundtracks-1.html">Soundtracks</a>
-							<a href="/music/remixes-1.html" class="dropbown-bottom">Remixes</a>
+							<a href="/music/perish-1.html" class="dropbown-bottom">Albums</a>
 						</div>
 					</li>
 					<li class="dropdown">
@@ -61,6 +61,7 @@ class Header extends HTMLElement {
 							<a href="/other/sheets-1.html" class="dropbown-bottom">Spreadsheets</a>
 						</div>
 					</li>
+					<li class="head"><a class="head" href="/blog/blog.html">Blog</a></li>
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Links</a>
 						<div class="dropdown-content dropbown-bottom">

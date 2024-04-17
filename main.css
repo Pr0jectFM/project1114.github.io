@@ -42,7 +42,7 @@ a:active {
 
 img {
 	width: "100%";
-	margin: 1em 0.5em;
+	margin: 0.5em 0.5em;
 }
 
 img.block{
@@ -89,7 +89,7 @@ ul {
 	float:left;
 	width:35%;
 	max-width:256px;
-	margin-right: 0.5em;
+	text-align: center;
 }
 
 .audio-container {
@@ -157,8 +157,8 @@ div.head-scroll {
 	white-space: nowrap;
 	text-align: center;
 	margin: 1em 0.6em;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 	border-radius: 10px;
 }
 
@@ -171,7 +171,7 @@ ul.head {
 	overflow: auto;
 	white-space: nowrap;
 	border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 li.head {
@@ -204,8 +204,8 @@ li.dropdown {
 	z-index: 1;
 	max-height: 0px;
 	overflow: hidden;
-  backdrop-filter: blur(3px);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(3px);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-content a {
@@ -214,6 +214,8 @@ li.dropdown {
 	text-decoration: none;
 	display: block;
 	text-align: left;
+	transition-duration: 0.2s;
+	transition-property: background-color;
 }
 
 .dropdown-content a:hover {
@@ -256,6 +258,11 @@ a.song-link{
 }
 a.song-link:hover{
 	background-color: rgba(2, 133, 255, 0.3);
+}
+a.video-link{
+	float: right;
+	margin: -2.4em 1em 0em 0em;
+	text-decoration: none;
 }
 .playlist li div{
 	display: none;
