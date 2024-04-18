@@ -36,9 +36,9 @@ class Header extends HTMLElement {
 					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Music</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/music/standalone-1.html">Standalone</a>
+							<a href="/music/albums-1.html">Albums</a>
 							<a href="/music/soundtracks-1.html">Soundtracks</a>
-							<a href="/music/perish-1.html" class="dropbown-bottom">Albums</a>
+							<a href="/music/standalone-1.html" class="dropbown-bottom">Standalone</a>
 						</div>
 					</li>
 					<li class="dropdown">
@@ -101,17 +101,16 @@ function positionDropdown() {
 }
 
 function setBoxHeight(){
-	if (document.getElementsByTagName("input")[0].checked)
+	if (document.getElementById("box-input").checked)
 		audiobox.setAttribute("style","max-height: 1em");
 	else
 		audiobox.setAttribute("style","max-height:" + audiobox.scrollHeight + "px");
 
 }
-
 customElements.define('header-component', Header);
 positionDropdown();
 var audiobox = document.getElementById("text-audio");
 setBoxHeight();
-$("input").click(function(e){
+$("#box-input").click(function(e){
 	setBoxHeight();
 })

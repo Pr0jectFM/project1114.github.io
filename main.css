@@ -264,6 +264,11 @@ a.video-link{
 	margin: -2.4em 1em 0em 0em;
 	text-decoration: none;
 }
+a.lyrics-link{
+	float: right;
+	margin: -2.4em 1em 0em 0em;
+	text-decoration: none;
+}
 .playlist li div{
 	display: none;
 }
@@ -272,4 +277,16 @@ a.video-link{
 }
 .playlist .current-song div{
 	display: block;
+}
+
+.lyrics{
+	line-height: 0em;
+	overflow: hidden;
+	transition-duration: 0.4s;
+	transition-property: line-height;
+	display: block;
+}
+
+input:checked + .lyrics{
+	line-height: 1.5em;
 }
