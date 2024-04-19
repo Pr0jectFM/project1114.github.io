@@ -4,29 +4,81 @@
 	<title>ProjectFM</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="common/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="main.css" media="all">
-	<script src="header.js" type="text/javascript" defer></script>
+	<link rel="icon" href="/common/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/main.css" media="all">
+	<script src="/header.js" type="text/javascript" defer></script>
 </head>
 
 <body>
 	<header-component></header-component>
 	<div class="containercontainer">
-		<div class="container">
-			<h1>
-				Page not found!
+		<div class="container" style="text-align:justify; max-width:40em">
+			<h1 style="margin: 0em 0em 0.5em 0em">
+				Static Art
 			</h1>
+			<img 
+			src="static/Impressionist.png"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0.5em">Effet d’Orange (2019)</h4>
+			<img 
+			src="static/ImpressionistBase.png"
+			style="width:100%"
+			class="center block"
+			>
+			This is a pixel art recreation of the painting by Theodore Rousseau. I created it for my French 5 final in high school.
+			<hr>
+			<img 
+			src="static/Oscilloscope.png"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0.5em">Oscilloscope (2022)</h4>
+			This is the layout I use when uploading Sega Genesis music to <a href="https://youtube.com/@Pr0jectFM?si=hetxh9MKy3JqHtcS">my YouTube channel</a>. It depicts analog equipment used for displaying waveforms.
+			<hr>
+			<img 
+			src="static/Portrait.png"
+			style="width:60%; "
+			class="center block"
+			>
+			<h4 style="margin:0.5em">Self Portrait (2022)</h4>
+			This is a self-portrait I created for my digital art class.
+			<hr>
+			<img 
+			src="static/Quest.png"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0.5em">Quest (2022)</h4>
+			I created this for a digital art assignment which involved creating a wordless 8-panel comic. It is an adaptation of my own journey in finding a store that sells Kuhli loaches. The creature depicted is an Aquatic Genet, which is a fish-eating mammal.
+			<hr>
+			<img 
+			src="static/SRZ.png"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0em">Sunken Relic Zone (2023)</h4>
+			This is concept art for the zone in <a href="/romhacks/shima-1.html">SHIMA</a>. It was also made as a companion to act 2's music. I limited myself to using a more vibrant variation of the color palette used by the NES.
+			<hr>
+			<img 
+			src="static/18.png"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0em">Botched Crossing (2023)</h4>
+			This was made as a companion to the song of the same name. This uses the same color palette as Sunken Relic Zone.
 		</div>
 	</div>
 	<br><br><br><br><br><br><br><br><br><br>
 	<label class="switch">
-		<input type="checkbox">
+		<input id="box-input" type="checkbox">
 		<span class="audio-text" id="text-audio">
-			Title: Trade (Instrumental Demo)
+			Title: Botched Crossing
 			<br>
 			Composed by: ProjectFM
 			<br>
-			Year: 2023
+			Year: 2021
 			<br>
 			Chips: YM2612 + SN76489
 		</span>
@@ -34,7 +86,7 @@
 		
 	<div class="audio-container">
 		<audio 
-			src="music/demos/tradedemo.mp3" 
+			src="/music/originals/botchedcrossing.mp3" 
 			controls="controls" 
 			loop="loop"
 			style="width:100%"

@@ -4,29 +4,49 @@
 	<title>ProjectFM</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="common/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="main.css" media="all">
-	<script src="header.js" type="text/javascript" defer></script>
+	<link rel="icon" href="/common/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/main.css" media="all">
+	<script src="/header.js" type="text/javascript" defer></script>
 </head>
 
 <body>
 	<header-component></header-component>
 	<div class="containercontainer">
 		<div class="container">
-			<h1>
-				Page not found!
+			<h1 style="margin: 0em 0em 0.5em 0em">
+				Motion Art
 			</h1>
+			<img 
+			src="motion/Portrait.gif"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0.5em">Animated Self Portrait (2022)</h4>
+			<hr>
+			<img 
+			src="motion/Augment.gif"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0.5em">Augment (2022)</h4>
+			<hr>
+			<img 
+			src="motion/Spider.gif"
+			style="width:100%"
+			class="center block"
+			>
+			<h4 style="margin:0.5em">Spider (2022)</h4>
 		</div>
 	</div>
 	<br><br><br><br><br><br><br><br><br><br>
 	<label class="switch">
-		<input type="checkbox">
+		<input id="box-input" type="checkbox">
 		<span class="audio-text" id="text-audio">
-			Title: Trade (Instrumental Demo)
+			Title: Treat (Instrumental Demo)
 			<br>
 			Composed by: ProjectFM
 			<br>
-			Year: 2023
+			Year: 2022
 			<br>
 			Chips: YM2612 + SN76489
 		</span>
@@ -34,7 +54,7 @@
 		
 	<div class="audio-container">
 		<audio 
-			src="music/demos/tradedemo.mp3" 
+			src="/music/demos/treatdemo.mp3" 
 			controls="controls" 
 			loop="loop"
 			style="width:100%"
