@@ -1,31 +1,31 @@
 html{
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-family: "Times New Roman", Times, serif;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-family: "Times New Roman", Times, serif;
 }
 
 body {
-  background-color: #000000;
-  /* The image used */
-  background-image: url("assets/BG.gif");
+	background-color: #000000;
+	/* The image used */
+	background-image: url("assets/BG.gif");
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
 }
 h1, h2, h3, h4 {
-  color: #ffffff;
+	color: #ffffff;
 	text-align: center;
 }
 h5, h6{
-  color: #ffffff;
+	color: #ffffff;
 }
 p {
-  color: #ffffff;
-  display: block;
+	color: #ffffff;
+	display: block;
 	text-align: justify;
-  line-height: 150%;
+	line-height: 150%;
 }
 a:link {
 	color: #88CCFF;
@@ -46,24 +46,24 @@ img {
 }
 
 img.block{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 ul {
-  list-style-type: circle;
+	list-style-type: circle;
 	padding: 0em 0em 0em 1em;
-  line-height: 150%;
+	line-height: 150%;
 	text-align: left;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .centerbutton {
-  text-align:center;
+	text-align:center;
 }
 
 /* Container holding the image and the text */
@@ -76,13 +76,13 @@ ul {
 	text-align: justify;
 	margin: 0em 0.5em;
 	max-width: 75em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(5px);
 }
 
 .containercontainer {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .floated {
@@ -94,33 +94,32 @@ ul {
 
 .audio-container {
 	position: fixed;
-  display: flex;
+	display: flex;
 	left: 1em;
 	right: 1em;
 	bottom: 1em;
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .audio-text {
 	position: fixed;
-  border-radius: 10px;
+	border-radius: 10px;
 	left: 1em;
 	bottom: 6em;
 	text-align: left;
 	padding: 0.5em 0.5em;
 	color:rgba(255,255,255,0.95);
 	background-color:rgba(0,18,36,0.7);
-  backdrop-filter: blur(3px);
-  line-height: 130%;
+	backdrop-filter: blur(3px);
+	line-height: 130%;
 	font-size: calc(0.7em + 0.25vw);
 	margin: 0em 0.5em;
 	cursor: pointer;
 	transition-duration: 0.4s;
 	transition-property: max-height;
 	overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.75), 0 6px 20px 0 rgba(0, 0, 0, 0.75);
-	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.75), 0 6px 20px 0 rgba(0, 0, 0, 0.75);
 }
 
 input {
@@ -157,8 +156,8 @@ div.head-scroll {
 	white-space: nowrap;
 	text-align: center;
 	margin: 1em 0.6em;
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
+	-ms-overflow-style: none;	/* IE and Edge */
+	scrollbar-width: none;	/* Firefox */
 	border-radius: 10px;
 }
 
@@ -168,7 +167,7 @@ ul.head {
 	margin: 0;
 	padding: 0;
 	background-color: rgba(0,18,36,1);
-	overflow: auto;
+	overflow: hidden;
 	white-space: nowrap;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
@@ -186,7 +185,6 @@ li a.head, .dropbtn {
 	text-decoration: none;
 	transition-duration: 0.2s;
 	transition-property: background-color;
-
 }
 
 li a.head:hover, .dropdown:hover .dropbtn {
@@ -268,6 +266,7 @@ a.lyrics-link{
 	float: right;
 	margin: -2.4em 1em 0em 0em;
 	text-decoration: none;
+	cursor: pointer;
 }
 .playlist li div{
 	display: none;
@@ -285,6 +284,7 @@ a.lyrics-link{
 	transition-duration: 0.4s;
 	transition-property: line-height;
 	display: block;
+    margin-left: 1em;
 }
 
 input:checked + .lyrics{
