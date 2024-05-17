@@ -233,7 +233,7 @@ li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
-	max-height: 20em;
+	max-height: 30em;
 	transition-duration: 0.4s;
 	transition-property: max-height;
 	transition-timing-function: linear;

@@ -13,26 +13,37 @@
 
 	<header-component></header-component>
 <div class="containercontainer">
-	<div class="container">
-	<img
-		src="8bdmskin/stand.gif"
-		alt="360 degree view of standing sprite"
-		style="width:25%;max-width:256px;"
-	>
-	<img
-		src="8bdmskin/run.gif"
-		alt="360 degree view of running animation"
-		style="width:25%;max-width:256px;"
-	>
-	<img
-		src="8bdmskin/gun.gif"
-		alt="360 degree view of shooting animation"
-		style="width:25%;max-width:256px;"
-	>
+	<div class="container" style="max-width:40em">
+		<h1 style="margin: 0em 0em 0.5em 0em">
+			Mega Man 8-bit Deathmatch Skin
+		</h1>
+		<div style="background-color:rgba(0,127,255,0.1);justify-content:space-evenly;display:flex;flex-wrap: wrap; border-radius:2em">
+			<img
+				src="8bdmskin/stand.gif"
+				alt="360 degree view of standing sprite"
+				style="max-width:256px;"
+			>
+			<img
+				src="8bdmskin/run.gif"
+				alt="360 degree view of running animation"
+				style="max-width:256px;"
+			>
+			<img
+				src="8bdmskin/gun.gif"
+				alt="360 degree view of shooting animation"
+				style="max-width:256px;"
+			>
+		</div>
+		<h2>
+			<a href="8bdmskin/ProjectFM.pk3">Download</a>
+		</h2>
+		<p>
+			This is my skin for the fan game <a href="https://cutstuff.net/mm8bdm/">Mega Man 8-bit Deathmatch</a>. For those unaware, it's an arena shooter built using the DOOM engine which uses characters, weapons, and environments taken the Mega Man series. The gameplay is unique from most arena shooters because there is no hitscan. Instead, weapons create projectiles which can move in unique ways depending on the weapon. This system and the variety in weapons and environments makes it one of my favorite games to play with friends.
+		</p>
 	</div>
 </div>
 <label class="switch">
-	<input type="checkbox">
+	<input id="box-input" type="checkbox">
 	<span class="audio-text" id="text-audio">
 		Title: Thunder Tornado
 		<br>
@@ -57,7 +68,7 @@
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="audio-container">
 	<audio 
-		src="../music/remixes/tornado.mp3" 
+		src="../music/remixes/thundertornado.mp3" 
 		controls="controls" 
 		loop="loop"
 		style="width:100%;"

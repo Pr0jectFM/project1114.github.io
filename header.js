@@ -55,18 +55,23 @@ class Header extends HTMLElement {
 						<div class="dropdown-content dropbown-bottom">
 							<a href="/other/8bdmskin-1.html">Mega Man 8-Bit Deathmatch Skin</a>
 							<a href="/other/sheets-1.html" class="dropbown-bottom">Spreadsheets</a>
+							<a href="/other/videos-1.html" class="dropbown-bottom">Videos</a>
 						</div>
 					</li><li class="head">
 					<a class="head" href="/blog/blog.html">Blog</a></li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Links</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="https://bandcamp.com/project1114">Bandcamp</a>
-							<a href="https://bsky.app/profile/projectfm.bsky.social">BlueSky</a>
-							<!--<a href="https://www.patreon.com/projectfm">Patreon</a>-->
-							<a href="https://www.reddit.com/user/Project1114">Reddit</a>
-							<a href="https://soundcloud.com/felix-morrissey">Soundcloud</a>
-							<a href="https://twitter.com/Pr0jectFM">Twitter</a>
-							<a href="https://youtube.com/@Pr0jectFM?si=hetxh9MKy3JqHtcS" class="dropbown-bottom">YouTube</a>
+							<a href="https://bandcamp.com/project1114" target="_blank">Bandcamp</a>
+							<a href="https://bsky.app/profile/projectfm.bsky.social" target="_blank">BlueSky</a>
+							<a href="https://discord.gg/MaQ88XaRQr" target="_blank">Discord Server</a>
+							<a href="https://www.facebook.com/Project1114" target="_blank">Facebook</a>
+							<a href="https://github.com/Project1114" target="_blank">GitHub</a>
+							<!--<a href="https://www.patreon.com/projectfm" target="_blank">Patreon</a>-->
+							<a href="https://www.reddit.com/user/Project1114" target="_blank">Reddit</a>
+							<a href="https://soundcloud.com/felix-morrissey" target="_blank">Soundcloud</a>
+							<a href="https://x.com/Pr0jectFM" target="_blank">Twitter</a>
+							<a href="https://youtube.com/@Pr0jectFM" target="_blank">YouTube (Primary)</a>
+							<a href="https://youtube.com/@FMcache" target="_blank" class="dropbown-bottom">YouTube (Secondary)</a>
 						</div>
 					</li>
 				</ul>
