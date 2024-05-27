@@ -9,7 +9,7 @@ class Header extends HTMLElement {
 			<div
 				style="padding-bottom: min(256px,25%); height:0; margin:0em 0.85em;"
 			>
-				<a href="/index.html">
+				<a href="/index">
 					<img 
 						src="/banner.png"
 						alt="Banner"
@@ -22,43 +22,43 @@ class Header extends HTMLElement {
 			</div>
 			<div class="head-scroll">
 				<ul class="head">
-					<li class="head"><a class="head" href="/about.html">
+					<li class="head"><a class="head" href="/about">
 					About</a></li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/romhacks/sid-1.html">South Island Definitive</a>
-							<a href="/romhacks/shima-1.html">Isle of Magnetic Artifacts</a>
-							<a href="/romhacks/sng-1.html">Next Genesis</a>
-							<a href="/romhacks/vts1-1.html">VTuber in Sonic 1</a>
-							<a href="/romhacks/other-1.html" class="dropbown-bottom">Others</a>
+							<a href="/romhacks/sid-1">South Island Definitive</a>
+							<a href="/romhacks/shima-1">Isle of Magnetic Artifacts</a>
+							<a href="/romhacks/sng-1">Next Genesis</a>
+							<a href="/romhacks/vts1-1">VTuber in Sonic 1</a>
+							<a href="/romhacks/other-1" class="dropbown-bottom">Others</a>
 						</div>
 					</li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Music</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/music/standalone-1.html">Standalone</a>
-							<a href="/music/soundtracks-1.html">Soundtracks</a>
-							<a href="/music/mashups-1.html" class="dropbown-bottom">Mashups</a>
+							<a href="/music/standalone-1">Standalone</a>
+							<a href="/music/soundtracks-1">Soundtracks</a>
+							<a href="/music/mashups-1" class="dropbown-bottom">Mashups</a>
 						</div>
 					</li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Art</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/art/static-1.html">Static</a>
-							<a href="/art/motion-1.html" class="dropbown-bottom">Motion</a>
+							<a href="/art/static-1">Static</a>
+							<a href="/art/motion-1" class="dropbown-bottom">Motion</a>
 						</div>
 					</li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Engineering</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/engineering/synth-1.html" class="dropbown-bottom">Analog Synthesizer</a>
+							<a href="/engineering/synth-1" class="dropbown-bottom">Analog Synthesizer</a>
 						</div>
 					</li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Other</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/other/8bdmskin-1.html">Mega Man 8-Bit Deathmatch Skin</a>
-							<a href="/other/sheets-1.html">Spreadsheets</a>
-							<a href="/other/videos-1.html" class="dropbown-bottom">Videos</a>
+							<a href="/other/8bdmskin-1">Mega Man 8-Bit Deathmatch Skin</a>
+							<a href="/other/sheets-1">Spreadsheets</a>
+							<a href="/other/videos-1" class="dropbown-bottom">Videos</a>
 						</div>
 					</li><li class="head">
-					<a class="head" href="/blog/blog.html">Blog</a></li><li class="dropdown">
+					<a class="head" href="/blog/blog">Blog</a></li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Links</a>
 						<div class="dropdown-content dropbown-bottom">
 							<a href="https://bandcamp.com/project1114" target="_blank">Bandcamp</a>
