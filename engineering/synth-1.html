@@ -15,28 +15,46 @@
 	<div class="containercontainer">
 		<div class="container" style="min-width:20em">
 			<h1 style="margin: 0em 0em 0em 0em">
-				Analog Synthesizer
+				Analog Synthesizer (2023)
 			</h1>
-			<h2>
-				Overview
-			</h2>
 			<p>
-				My
+				My final year of college involved two large scale projects: an electrical engineering capstone and an honors thesis. The capstone involved designing and building an electrical device of my choice. This would usually be done with a partner, but due to an uneven number of people in the class, I ended up doing mine alone. The thesis involved researching or creating something and writing in depth about it. To make things easy on myself, I related the two projects together by focusing them both on the same project--an analog synthesizer. While the capstone would go into detail on the design and construction of the synthesizer, the thesis would expand upon that by exploring the process of creating music with the synthesizer. To go along with the thesis, I wrote and recorded demos for six songs, which can be found below.
 			</p>
 			<img
 			src="synth/images/synth.jpg"
 			class="center block"
-			style="width:100%; max-width:20em"
+			style="width:100%; max-width:40em"
 			>
-			<p style="text-align:center; margin:0em">The synthesizer</p>
+			<p class="description"">The synthesizer</p>
+			<h2>
+				Features
+			</h2>
 			<p>
-			
+				The synthesizer has the capability to produce a sawtooth wave of varying frequencies, modulate it using a low frequency oscillator, and modify its timbre using a low pass filter with a cutoff frequency controlled by an envelope generator. It's controlled using a built-in keyboard as well as a series of potentiometers, and the output is an 8.5 mm audio jack.
+			</p>
 			<h2>
 				Issues
 			</h2>
+			<p>
+				The creation of this synthesizer was a learning experience in which I made many mistakes. Here are some noteworthy issues with my design:
+				<ul>
+					<li>The choice of battery type was completely arbitrary what my advisor recommended. I assumed the larger voltage the better, but it just resulted in the synth being inefficient and requiring a miniscule attenuation ratio in the amplifier.</li>
+					<li>I didn't use any voltage regulators and the pitch is dependent on the voltage of the battery, so as the battery drains, the pitch gradually goes down. In order for it to be usable, I had to use an external power supply.</li>
+					<li>Each key has to be tuned individually and the tuning doesn't scale correctly with master tuning potentiometer, meaning that any changes in octave will have to come with all 25 keys being retuned. This makes it frustrating to work with.</li>
+					<li>The settings of the envelope generator are somewhat dependent on one another, which makes some potentially useful settings outright impossible.</li>
+					<li>Connecting a chord from the audio jack of the synth to the headphone jack of a computer causes an overload condition when the same computer is being used as a power supply for the synth. I haven't tried this using separate computers. Daisy chaining devices doesn't fix this. Because of this issue, I had to hold a speaker to a microphone to record the synth parts of these songs.</li>
+					<li>The amplifier distorts the waveform in a way that makes it sound very different from the desired sawtooth wave. This might be a positive since it is unique, but I would prefer to be able to intentionally control how the waveform gets distorted rather than have it happen on accident.</li>
+				</ul>
+			</p>
+			<h3>
+				<a href="synth/ProjectFM Synthesizer Thesis.pdf">Thesis Download (PDF)</a>
+			</h3>
 			<h2>
 				Music
 			</h2>
+			<p>
+				The music ended up being pretty rough, with a significant amount of the lyrics and vocal and synth parts being recorded during the weekend before the project was due. I plan on revisiting some of these songs in the future, though without the synthesizer. The parts I recorded for these songs have since been deleted by accident, meaning they would all need to be rerecorded. I find the synth too difficult to work with for this to be something I want to do in the future.
+			</p>
 			<ul id="playlist0" class="playlist">
 				<li class="current-song">
 					<a class="song-link" id="synPersistent" href="synth/full-music/persistentpresence.mp3">1. Persistent Presence</a>		

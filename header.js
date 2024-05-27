@@ -35,9 +35,9 @@ class Header extends HTMLElement {
 					</li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Music</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/music/albums-1.html">Albums</a>
+							<a href="/music/standalone-1.html">Standalone</a>
 							<a href="/music/soundtracks-1.html">Soundtracks</a>
-							<a href="/music/standalone-1.html" class="dropbown-bottom">Standalone</a>
+							<a href="/music/mashups-1.html" class="dropbown-bottom">Mashups</a>
 						</div>
 					</li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Art</a>
@@ -54,7 +54,7 @@ class Header extends HTMLElement {
 						<a class="head" href="javascript:void(0)" class="dropbtn">Other</a>
 						<div class="dropdown-content dropbown-bottom">
 							<a href="/other/8bdmskin-1.html">Mega Man 8-Bit Deathmatch Skin</a>
-							<a href="/other/sheets-1.html" class="dropbown-bottom">Spreadsheets</a>
+							<a href="/other/sheets-1.html">Spreadsheets</a>
 							<a href="/other/videos-1.html" class="dropbown-bottom">Videos</a>
 						</div>
 					</li><li class="head">
@@ -64,7 +64,7 @@ class Header extends HTMLElement {
 							<a href="https://bandcamp.com/project1114" target="_blank">Bandcamp</a>
 							<a href="https://bsky.app/profile/projectfm.bsky.social" target="_blank">BlueSky</a>
 							<a href="https://discord.gg/MaQ88XaRQr" target="_blank">Discord Server</a>
-							<a href="https://www.facebook.com/Project1114" target="_blank">Facebook</a>
+							<!--<a href="https://www.facebook.com/Project1114" target="_blank">Facebook</a>-->
 							<a href="https://github.com/Project1114" target="_blank">GitHub</a>
 							<!--<a href="https://www.patreon.com/projectfm" target="_blank">Patreon</a>-->
 							<a href="https://www.reddit.com/user/Project1114" target="_blank">Reddit</a>
