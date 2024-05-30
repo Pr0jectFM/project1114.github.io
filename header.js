@@ -62,7 +62,7 @@ class Header extends HTMLElement {
 						<a class="head" href="javascript:void(0)" class="dropbtn">Links</a>
 						<div class="dropdown-content dropbown-bottom">
 							<a href="https://bandcamp.com/project1114" target="_blank">Bandcamp</a>
-							<a href="https://bsky.app/profile/projectfm.bsky.social" target="_blank">BlueSky</a>
+							<a href="https://bsky.app/profile/projectfm.space" target="_blank">BlueSky</a>
 							<a href="https://discord.gg/MaQ88XaRQr" target="_blank">Discord Server</a>
 							<!--<a href="https://www.facebook.com/Project1114" target="_blank">Facebook</a>-->
 							<a href="https://github.com/Project1114" target="_blank">GitHub</a>
