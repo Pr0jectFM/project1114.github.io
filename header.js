@@ -26,7 +26,7 @@ class Header extends HTMLElement {
 					About</a></li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">ROM Hacks</a>
 						<div class="dropdown-content dropbown-bottom">
-							<a href="/romhacks/sid-1">South Island Definitive</a>
+							<a href="/romhacks/sie-1">South Island Expedition</a>
 							<a href="/romhacks/shima-1">Isle of Magnetic Artifacts</a>
 							<a href="/romhacks/sng-1">Next Genesis</a>
 							<a href="/romhacks/vts1-1">VTuber in Sonic 1</a>
