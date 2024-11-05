@@ -26,6 +26,7 @@ async function logMusic(id) {
 		}
 	}
 	document.getElementById("text-audio").innerHTML = string;
+	setBoxHeight();
 }
 
 function audioPlayer(){
@@ -50,7 +51,7 @@ function audioPlayer(){
 			currentSong = 0;				// then reset currentSong
 		$(previousSong).parent().removeClass("current-song");		// remove current-song from the entry on the list
 		$(nextSong[currentSong]).addClass("current-song");		// give entry on list the current-song class
-		$("#audioPlayer")[0].src = nextSong[currentSong].children[0].href;	// set the audio player to the song corresponginf with the currentSong # entry on the list
+		$("#audioPlayer")[0].src = nextSong[currentSong].children[0].href;	// set the audio player to the song corresponding with the currentSong # entry on the list
 		$("#audioPlayer")[0].play();
 		previousSong = nextSong[currentSong].children[0];				// set current song
 		logMusic(previousSong.id);

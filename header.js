@@ -60,22 +60,83 @@ class Header extends HTMLElement {
 					</li><li class="head">
 					<a class="head" href="/blog/blog">Blog</a></li><li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Links</a>
-						<div class="dropdown-content dropbown-bottom">
-							<a href="https://bandcamp.com/project1114" target="_blank">Bandcamp</a>
-							<a href="https://bsky.app/profile/projectfm.space" target="_blank">BlueSky</a>
-							<a href="https://discord.gg/MaQ88XaRQr" target="_blank">Discord Server</a>
-							<!--<a href="https://www.facebook.com/Project1114" target="_blank">Facebook</a>-->
-							<a href="https://github.com/Project1114" target="_blank">GitHub</a>
-							<!--<a href="https://www.patreon.com/projectfm" target="_blank">Patreon</a>-->
-							<a href="https://www.reddit.com/user/Project1114" target="_blank">Reddit</a>
-							<a href="https://soundcloud.com/felix-morrissey" target="_blank">Soundcloud</a>
-							<a href="https://x.com/Pr0jectFM" target="_blank">Twitter</a>
-							<a href="https://youtube.com/@Pr0jectFM" target="_blank">YouTube (Primary)</a>
-							<a href="https://youtube.com/@FMcache" target="_blank" class="dropbown-bottom">YouTube (Secondary)</a>
-						</div>
-					</li>
-				</ul>
-			</div>
+							<div class="dropdown-content dropbown-bottom">
+								<a style="display: flex" href="https://bandcamp.com/project1114" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/bandcamp.png">
+									</div>
+									Bandcamp
+								</a>
+								<a style="display: flex" href="https://bsky.app/profile/projectfm.space" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/bluesky.svg">
+									</div>
+									BlueSky
+								</a>
+								<a style="display: flex" href="https://discord.gg/MaQ88XaRQr" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/discord.svg">
+									</div>
+									Discord Server
+								</a>
+								<!--<a style="display: flex" href="https://www.facebook.com/Project1114" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/bluesky.svg">
+									</div>
+									Facebook
+								</a>-->
+								<a style="display: flex" href="https://github.com/Pr0jectFM" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/github.svg">
+									</div>
+									GitHub
+								</a>
+								<!--<a style="display: flex" href="https://www.patreon.com/projectfm" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/bluesky.svg">
+									</div>
+									Patreon
+								</a>-->
+								<a style="display: flex" href="https://www.reddit.com/user/Project1114" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/reddit.svg">
+									</div>
+									Reddit
+								</a>
+								<a style="display: flex" href="https://soundcloud.com/felix-morrissey" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/soundcloud.svg">
+									</div>
+									Soundcloud
+								</a>
+								<a style="display: flex" href="https://twitter.com/Pr0jectFM" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/twitter.svg">
+									</div>
+									Twitter
+								</a>
+								<a style="display: flex" href="https://youtube.com/@Pr0jectFM" target="_blank">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/youtube.png">
+									</div>
+									YouTube (Primary)
+								</a>
+								<a style="display: flex" href="https://youtube.com/@FMcache" target="_blank" class="dropbown-bottom">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/youtube.png">
+									</div>
+									YouTube (Secondary)
+								</a>
+								<a style="display: flex" href="https://youtube.com/@FMrarities" target="_blank" class="dropbown-bottom">
+									<div class="logo">
+										<img style="width:100%; margin: 0em" src="/assets/logos/youtube.png">
+									</div>
+									YouTube (Tertiary)
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
 			</header>
 		`;
 	}
