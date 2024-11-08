@@ -9,7 +9,7 @@ class Header extends HTMLElement {
 			<div
 				style="padding-bottom: min(256px,25%); height:0; margin:0em 0.85em;"
 			>
-				<a href="/index">
+				<a href="/">
 					<img 
 						src="/banner.png"
 						alt="Banner"
