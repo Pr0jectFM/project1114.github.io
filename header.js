@@ -7,14 +7,13 @@ class Header extends HTMLElement {
 		this.innerHTML = `
 			<header>
 			<div
-				style="padding-bottom: min(256px,25%); height:0; margin:0em 0.85em;"
+				style="padding-bottom: min(148px,50%); height:0; margin:0em 0.85em; width:100%; text-align: center;"
 			>
 				<a href="/">
 					<img 
-						src="/banner.png"
-						alt="Banner"
-						style="width:100%; max-width:1024px; border-radius:25px; max-height:256px"
-						class="center block"
+						src="/assets/logo.png"
+						alt="Logo"
+						style="width:100%; max-width:352px; max-height:148px; display:inline-block"
 					>
 				</a>
 			</div>
