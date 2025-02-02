@@ -7,7 +7,7 @@ class Header extends HTMLElement {
 		this.innerHTML = `
 			<header>
 			<div
-				style="padding-bottom: min(148px,50%); height:0; margin:0em 0.85em; width:100%; text-align: center;"
+				style="padding-bottom: min(148px,50%); height:0; margin:0em; width:100%; text-align: center;"
 			>
 				<a href="/">
 					<img 
