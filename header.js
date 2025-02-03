@@ -57,7 +57,8 @@ class Header extends HTMLElement {
 							<a href="/other/videos-1" class="dropbown-bottom">Videos</a>
 						</div>
 					</li><li class="head">
-					<a class="head" href="/blog/blog">Blog</a></li><li class="dropdown">
+					<!-- <a class="head" href="/blog/blog">Blog</a></li>-->
+					<li class="dropdown">
 						<a class="head" href="javascript:void(0)" class="dropbtn">Links</a>
 							<div class="dropdown-content dropbown-bottom">
 								<a style="display: flex" href="https://bandcamp.com/project1114" target="_blank">

@@ -186,7 +186,7 @@ ul.head {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0,18,36,1);
+	background-color: rgba(0,18,36,0.95);
 	overflow: hidden;
 	white-space: nowrap;
 	border-radius: 10px;
@@ -209,7 +209,7 @@ li a.head, .dropbtn {
 }
 
 li a.head:hover, .dropdown:hover .dropbtn {
-	background-color: rgba(0,54,108,1);
+	background-color: rgba(0,54,108,0.8);
 }
 
 li.dropdown {
@@ -265,22 +265,25 @@ div.logo {
 	list-style: none;
 	list-style-type: none;
 	padding-left: 0;
+	border: 1px solid rgba(127,127,255,0.6);
+	border-radius: 0.5em;
+	background-color:rgba(0,127,255,0.15);
 }
 .playlist li{
-	padding: 0px 16px;
+	padding: 0px 0px;
 	list-style-type: none;
 }
 a.song-link{
 	color:white;
 	text-decoration: none;
 	padding: 14px 16px;
-	background-color: rgba(2, 133, 255, 0);
+	background-color: rgba(47, 92, 143, 0);
 	display: block;
 	border-radius: 0.5em;
 	transition-duration: 0.2s;
 	transition-property: background-color, border-color;
 	border-style: solid;
-	border-width: 0px 1px;
+	border-width: 1px 5px;
 	border-color: rgba(255, 255, 255, 0);
 }
 a.song-link:hover{
@@ -301,7 +304,7 @@ a.lyrics-link{
 	display: none;
 }
 .playlist .current-song a{
-	border-color: rgba(2, 133, 255, 1);
+	border-color: rgb(104, 170, 255);
 }
 .playlist .current-song div{
 	display: block;
