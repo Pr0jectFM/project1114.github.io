@@ -875,7 +875,8 @@
         "creator2": null,
         "year2": null,
         "chip2": null
-    },    {
+    },    
+    {
         "id": "sunFly",
         "remix": "1",
         "title1": "Lunar Outpost Zone",
@@ -888,5 +889,19 @@
         "creator2": "Claire Littley, Bart Howard",
         "year2": "1995, 1954",
         "chip2": null
+    },
+    {
+        "id": "coopMZ",
+        "remix": "1",
+        "title1": "Marble Zone Act 1",
+        "game1": "Sonic 1 Co-op",
+        "creator1": "ProjectFM",
+        "year1": "2025",
+        "chip1": "YM2612 + SN76489",
+        "title2": "Marble Zone",
+        "game2": "Sonic the Hedgehog",
+        "creator2": "Masato Nakamura",
+        "year2": "1991",
+        "chip2": "YM2612 + SN76489"
     }
 ]
