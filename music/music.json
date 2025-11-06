@@ -899,9 +899,60 @@
         "year1": "2025",
         "chip1": "YM2612 + SN76489",
         "title2": "Marble Zone",
-        "game2": "Sonic the Hedgehog",
+        "game2": "Sonic the Hedgehog (Sega Genesis)",
         "creator2": "Masato Nakamura",
         "year2": "1991",
         "chip2": "YM2612 + SN76489"
+    },
+    {
+        "id": "gearSave",
+        "remix": "0",
+        "title1": "Save Menu",
+        "game1": "Sonic the Hedgehog 2: Gear Shift",
+        "creator1": "ProjectFM",
+        "year1": "2025",
+        "chip1": "YM2612 + SN76489"
+    },
+    {
+        "id": "gearSHZ",
+        "remix": "1",
+        "title1": "Sky High Zone",
+        "game1": "Sonic the Hedgehog 2: Gear Shift",
+        "creator1": "ProjectFM",
+        "year1": "2025",
+        "chip1": "YM2612 + SN76489",
+        "title2": null,
+        "game2": "Sonic the Hedgehog 2 (Sega Master System)",
+        "creator2": "Naofumi Hataya",
+        "year2": "1992",
+        "chip2": "SN76489"
+    },
+    {
+        "id": "gearGHZ",
+        "remix": "1",
+        "title1": "Green Hills Zone",
+        "game1": "Sonic the Hedgehog 2: Gear Shift",
+        "creator1": "ProjectFM",
+        "year1": "2025",
+        "chip1": "YM2612 + SN76489",
+        "title2": null,
+        "game2": "Sonic the Hedgehog 2 (Sega Master System)",
+        "creator2": "Masafumi Ogata",
+        "year2": "1992",
+        "chip2": "SN76489"
+    },
+    {
+        "id": "gearEmerald",
+        "remix": "1",
+        "title1": "Found Emerald!",
+        "game1": "Sonic the Hedgehog 2: Gear Shift",
+        "creator1": "ProjectFM",
+        "year1": "2025",
+        "chip1": "YM2612 + SN76489",
+        "title2": null,
+        "game2": "Sonic the Hedgehog 2 (Sega Master System)",
+        "creator2": "Masafumi Ogata",
+        "year2": "1992",
+        "chip2": "SN76489"
     }
 ]
